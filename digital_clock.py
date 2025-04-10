@@ -13,7 +13,7 @@ def digital_clock():
             clear_terminal()
             current_time = datetime.now().strftime("%H:%M:%S")
             current_date = datetime.now().strftime("%A, %d %B %Y")
-            print('\nDigital Clock')
+            print('\nDigital Clock\n')
             print(f"Date: {current_date}")
             print(f"Time: {current_time}")
             time.sleep(1)
